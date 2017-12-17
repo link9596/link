@@ -13,7 +13,7 @@
  </style>
  
 ## Hello! My name is link!
-## [Windows准备环境部署Jekyll](http://link9596.github.io/link/blog/1.md)
+## [Windows准备环境部署Jekyll](http://link9596.github.io/link/blog/)
  对于玩静态博客的大佬没有一个会不知道HEXO和Jekyll,但是安装Jekyll需要Ruby环境的支持，可是...
 ```javascript
 function(){
