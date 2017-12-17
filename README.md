@@ -6,6 +6,10 @@
   display: none;
  }
  
+ .btn:after{
+ content: "My name is Link.";
+ }
+ 
  </style>
  
 ## Hello! My name is link!
