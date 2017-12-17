@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://link9596.github.io/link/css/style.css">
+<script type="text/javascript" src="emm.js">
 
 ## Hello! My name is link!
 ## [基于HTML5建立的一个演示模板](http://link9596.github.io/link/blog/)
