@@ -2,12 +2,14 @@
 linkop{
   display:none;
 }
+/*
 p{
     width: 600px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+*/
 
 a{
   color: #009688;
