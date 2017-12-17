@@ -1,3 +1,9 @@
+<style>
+ a{
+ color: #117733
+}
+ </style>
+ 
 ## Hello! My name is link!
 ## [Windows准备环境部署Jekyll](http://link9596.github.io/link/blog/1.md)
 
