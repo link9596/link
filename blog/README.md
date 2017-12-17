@@ -2,7 +2,7 @@
   a{
   color: #009688;
   }
-  .btn{ 
+  .btn{
   display: none;
   }
   .project-tagline:after{
