@@ -3,7 +3,7 @@ linkop{
   display:none;
 }
 p{
-    width: 250px;
+    width: 600px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
