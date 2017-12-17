@@ -1,4 +1,13 @@
 <style>
+linkop{
+  display:none;
+}
+a{
+  color: #009688;
+}
+.btn{
+  display:none
+}
 .project-tagline:after{
 content: "My name is Link.";
 }
