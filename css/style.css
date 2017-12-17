@@ -2,15 +2,19 @@
 linkop{
   display:none;
 }
-/*
-p{
-    width: 600px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-*/
 
+.site-footer-credits{
+  display: none;
+}
+
+.site-footer-owner{
+  display: none;
+}
+
+.site-footer:after{
+  content: "This page was made by Jekyll.<br><br>©Cpoyright2016-2017 Link.com<br>All rights reserved"
+}
+    
 a{
   color: #009688;
 }
