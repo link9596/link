@@ -3,6 +3,8 @@
 
 # 如何吃稽
 
+<!--more-->
+dkkdkkd
 This page was made by　HEXO
   ©Cpoyright2016-2017 Link.com
       All rights reserved
