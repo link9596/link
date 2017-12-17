@@ -1,4 +1,14 @@
-<style> a{ color: #009688;} .btn{  display: none; } .project-tagline:after{ content: "My name is Link."; } </style> 
+<style>
+  a{
+  color: #009688;
+  }
+  .btn{ 
+  display: none;
+  }
+  .project-tagline:after{
+  content: "My name is Link.";
+  }
+</style> 
 
 ## [基于HTML5建立的一个演示模板](http://link9596.github.io/link/blog/)
 > 分享一个自己几天前刚做的一个用来演示的模板，可用来展示一些如个人简历、产品、演示文稿等，贴上链接：
