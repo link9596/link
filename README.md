@@ -12,7 +12,3 @@
 
 ***
 
-This page was made by Jekyll.
-
-©Cpoyright2016-2017 Link.com
-      All rights reserved
