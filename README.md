@@ -1,5 +1,5 @@
 ## Hello! My name is link!
-## Welcome to here.This is my personal home page 
+## [简书](http://link9596.github.io/link/blog/1.md)
 
 # 如何吃稽
 
