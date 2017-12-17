@@ -6,7 +6,7 @@
   display: none;
  }
  
- .btn:after{
+ .project-tagline:after{
  content: "My name is Link.";
  }
  
