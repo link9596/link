@@ -12,7 +12,10 @@ linkop{
 }
 
 .site-footer:after{
-  content: "This page was made by Jekyll.\A\A©Cpoyright2016-2017 Link.com<br>All rights reserved"
+  content: "This page was made by Jekyll.
+    
+    ©Cpoyright2016-2017 Link.com
+    All rights reserved"
 }
     
 a{
