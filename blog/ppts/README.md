@@ -9,4 +9,4 @@
 
 [项目地址](https://github.com/link9596/funny/tree/master/cnppts)
 
-![](https://link9596.github.io/link/usrimg/ppt-2017-12-17.png)
+![Demo](https://link9596.github.io/link/usrimg/ppt-2017-12-17.png "这是Demo图片")
