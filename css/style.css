@@ -12,7 +12,8 @@ linkop{
 }
 
 .site-footer:after{
-  content: "This page was made by Jekyll. \n ©Cpoyright2016-2017 Link.comAll rights reserved"
+  white-space: pre-wrap;
+  content: "This page was made by Jekyll. \A ©Cpoyright2016-2017 Link.comAll rights reserved"
 }
     
 a{
