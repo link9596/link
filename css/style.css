@@ -26,4 +26,8 @@ a{
 .project-tagline:after{
 content: "My name is Link.";
 }
+
+.page-header{
+ background: #9FC2D6 url("f1/1-funny.png") no-repeat center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size:cover; max-width:100%; margin: auto;text-align: center;margin-bottom:20px;
+}
 </style> 
