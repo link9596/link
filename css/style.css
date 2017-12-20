@@ -3,6 +3,7 @@ linkop{
   display:none;
 }
 
+/*
 .site-footer-credits{
   display: none;
 }
@@ -10,7 +11,7 @@ linkop{
 .site-footer-owner{
   display: none;
 }
-/*
+
 .site-footer:after{
   font-size:15px;
   white-space: pre-wrap;
