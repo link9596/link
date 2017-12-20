@@ -10,13 +10,13 @@ linkop{
 .site-footer-owner{
   display: none;
 }
-
+/*
 .site-footer:after{
   font-size:15px;
   white-space: pre-wrap;
   content: "This page was made by H2\A Theme by Jekyll.\A\A©2016-2017 lkooc.ml\A All rights reserved"
 }
-    
+*/ 
 a{
   color: #009688;
 }
