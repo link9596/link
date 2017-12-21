@@ -16,11 +16,15 @@
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+     <!--   
+     <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      -->
       {% endif %}
       {% if site.show_downloads %}
+     <!--
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      -->
       {% endif %}
     </section>
 
@@ -29,9 +33,9 @@
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><!--<a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>--> Powered by <!--<a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>--><a href="">{{ site.github.repository_name }}</a>.</span>
+          <span class="site-footer-owner"><!--<a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>--> Originate from <!--<a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>--><a href="">{{ site.github.repository_name }}</a>.</span>
         {% endif %}
-        <span class="site-footer-credits">This page was made by <a href="https://pages.github.com">H</a>.</span>
+        <span class="site-footer-credits">This page was made by <a href="https://pages.github.com">H₂</a>.</span>
       </footer>
     </section>
 
