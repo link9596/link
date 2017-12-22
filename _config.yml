@@ -4,4 +4,4 @@ show_downloads: flase
 google_analytics:
 theme: jekyll-theme-cayman
 author: link
-paginate: 5
+paginate: 1
