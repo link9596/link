@@ -35,6 +35,25 @@
        <div class="fade">
        <h2 style="color: #999999;text-align:center"></h2>
          <div class="fade">
+          
+          <script>
+           function checkuser() {
+            if($('uname' == "lala") && $('pwd') == "123") {
+             return true;
+            }else {
+             return false;
+            }
+           }
+           function $(id) {
+            return document.getElementById(id).value;
+           }
+          </script>
+          <form action="ok.html">
+           u:<input type="text" id="uname"/><br>
+           p:<input type="password" id="pwd"/><br>
+           <input type="submit" value="登录" onclick="return checkuser()"/>  
+        </form>
+          
          <h2 style="color: #999999;text-align:center"></h2>
            <div class="fade">
            <h6 style="color: #aaaaaa;text-align:center">© 2018 Link, Funny.</h6>
