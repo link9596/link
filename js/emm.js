@@ -1,11 +1,11 @@
 window.onload=function(){
-  document.getElementById('alerts').style.display='none';
+  document.getElementById('alerts').style.width='0px';
 }
 
 window.setInterval(clean, 4000);
 
 function clean(){
-  document.getElementById('alerts').style.display='none';
+  document.getElementById('alerts').style.width='0px';
 }
 
 function KeyDown()
@@ -27,7 +27,7 @@ function check(){
 window.location.href="http://lkopp.ml";
 }
  else{
-   document.getElementById('alerts').style.display='block';
+   document.getElementById('alerts').style.width='300px';
    alert("用户名或密码错误!");
   }
 }
