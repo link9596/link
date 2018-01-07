@@ -4,7 +4,7 @@ function KeyDown()
   {
     event.returnValue=false;
     event.cancel = true;
-    Form1.btnsubmit.click();
+    Form1.login.click();
   }
 }
 
