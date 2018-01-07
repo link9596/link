@@ -10,6 +10,7 @@ function KeyDown()
 
 function check(){
  var user = "link", password = "95969639";
+ var user = "123", password = "2222"; 
  var temUser = document.form1.username.value;
  var temPassword = document.form1.password.value;
  if(user==temUser && password==temPassword)
