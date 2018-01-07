@@ -1,3 +1,7 @@
+window.onload=function(){
+  document.getElementById('alerts').style.display='none';
+}
+
 function KeyDown()
 {
   if (event.keyCode == 13)
@@ -14,10 +18,10 @@ function check(){
  var temPassword = document.form1.password.value;
  if(user==temUser && password==temPassword)
 {
- alert("登入成功!");
 window.location.href="http://lkopp.ml";
 }
  else{
+   document.getElementById('alerts').style.display='block';
    alert("用户名或密码错误!");
   }
 }
