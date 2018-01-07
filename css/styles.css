@@ -145,6 +145,7 @@ html {
   -ms-transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
   transform: translateY(-15px);
+  color: #E91E63;
 }
 
 .floating-btn {
