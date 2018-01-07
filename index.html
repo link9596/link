@@ -12,10 +12,10 @@
 
  <style>
 
-@-webkit-keyframes fade-in-down {
+@-webkit-keyframes fade-in-down2 {
   from {
     opacity: 0;
-    -webkit-transform: translateY(30px);
+    -webkit-transform: translateY(50px);
      }
   to {
     opacity: 1;
@@ -23,6 +23,11 @@
     }
 }
 
+.fade2{
+ -webkit-animation: fade-in-down2 0.8s;
+ animation: fade-in-down2 0.8s;
+}
+  
 .h1,.h2,.h3,.h4,.lead,body,h1,h2,h3,h4{
   font-family:RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;font-weight:300;width:100%;
 }
@@ -41,7 +46,7 @@
      <div class="fade">
      <h4 style="color: #999999;text-align:center">请登录以获得管理员权限：</h4>
        <div class="fade">
-       <h2 style="color: #999999;text-align:center" id="alerts">密码错误</h2>
+       <h5 style="color: #999999;text-align:center" class="fade2">用户名或密码错误！</h5>
          <div class="fade">
          <h2 style="color: #999999;text-align:center"></h2>
            <div class="fade" style="margin:auto">
