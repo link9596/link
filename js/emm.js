@@ -1,7 +1,8 @@
 window.onload=function(){
   document.getElementById('alerts').style.display='none';
 }
-setTimeout(clean, 7000);
+
+window.setInterval(clean, 4000);
 
 function clean(){
   document.getElementById('alerts').style.display='none';
