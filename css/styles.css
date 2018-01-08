@@ -9,7 +9,7 @@ html {
 
 .alert{
   position: absolute;
-  margin: -100px auto 0px auto;
+  margin: -100px 0px 0px 0px;
   width: 300px;
   background-color: #555555;
 }
