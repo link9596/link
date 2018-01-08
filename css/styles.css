@@ -9,7 +9,9 @@ html {
 
 .alert{
   position: absolute;
-  margin: -300px 0px 0px 0px;
+  margin: -100px 0px 0px 0px;
+  width: 300px;
+  background-color: #555555;
 }
 
 .link-button{
