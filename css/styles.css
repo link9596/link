@@ -7,6 +7,11 @@ html {
   background: #FFFFFF;
 }
 
+.alert{
+  position: absolute;
+  margin: -300px 0px 0px 0px;
+}
+
 .link-button{
   min-width: 88px;
   padding: 0px 16px;
