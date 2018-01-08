@@ -1,11 +1,11 @@
 window.onload=function(){
-  document.getElementById('alerts').style.margin='-500px 0px 0px 0px';
+  document.getElementById('alert').style.margin='-100px 0px 0px 0px';
 }
 
 window.setInterval(clean, 4000);
 
 function clean(){
-  document.getElementById('alerts').style.margin='-500px 0px 0px 0px';
+  document.getElementById('alerts').style.margin='-100px 0px 0px 0px';
 }
 
 function KeyDown()
