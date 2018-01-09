@@ -12,8 +12,8 @@ html {
   margin: -100px 0px 0px 0px;
   width: 300px;
   background-color: #555555
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
 }
 
 .link-button{
