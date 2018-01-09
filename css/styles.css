@@ -8,7 +8,7 @@ html {
 }
 
 .alert{
-  position: absolute fixed;
+  position: fixed;
   margin: -100px 0px 0px 0px;
   padding: 0px 8px 0px 0px;
   width: 100%;
