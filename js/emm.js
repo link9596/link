@@ -28,6 +28,6 @@ window.location.href="http://lkopp.ml";
 }
  else{
    document.getElementById('alert').style.margin='-23px 0px 0px 0px';
-   alert("用户名或密码错误!");
+   //alert("用户名或密码错误!");
   }
 }
