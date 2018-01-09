@@ -10,7 +10,7 @@ html {
 .alert{
   position: absolute;
   margin: -100px 0px 0px 0px;
-  width: 300px;
+  width: 100%;
   background-color: #555555;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
