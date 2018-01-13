@@ -27,7 +27,7 @@ function check(){
 window.location.href="http://lkopp.ml";
 }
  else{
-   document.getElementById('alert').style.transform='translateY(200px)';
+   document.getElementById('alert').style.transform='translateY(100px)';
    //alert("用户名或密码错误!");
   }
 }
