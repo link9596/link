@@ -10,13 +10,14 @@ html {
 .alert{
   position: fixed;
   margin: -100px 0px 0px 0px;
-  padding: 0px 8px 0px 0px;
+  padding: 10px 8px 10px 0px;
   width: 100%;
   background-color: #333333;
   color: #ffffff;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
   display: block;
+  padding-left:50px;
 }
 
 .link-button{
