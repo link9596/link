@@ -1,13 +1,13 @@
 window.onload=function(){
-  document.getElementById('alert').style.Transform='translateY(1000px)';
-  document.getElementById('alert').style.WebkitTransform='translateY(1000px)';
+  document.getElementById('alert').style.Transform='translateY(-100px)';
+  document.getElementById('alert').style.WebkitTransform='translateY(-100px)';
 }
 
 window.setInterval(clean, 4000);
 
 function clean(){
-  document.getElementById('alert').style.transform='translateY(1000px)';
-  document.getElementById('alert').style.WebkitTransform='translateY(100px)';
+  document.getElementById('alert').style.transform='translateY(-100px)';
+  document.getElementById('alert').style.WebkitTransform='translateY(-100px)';
 }
 
 function KeyDown()
@@ -29,8 +29,8 @@ function check(){
 window.location.href="http://lkopp.ml";
 }
  else{
-   document.getElementById('alert').style.transform='translateY(890px)';
-   document.getElementById('alert').style.WebkitTransform='translateY(921px)';
+   document.getElementById('alert').style.transform='translateY(78px)';
+   document.getElementById('alert').style.WebkitTransform='translateY(79px)';
    //alert("用户名或密码错误!");
   }
 }
