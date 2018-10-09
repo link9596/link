@@ -26,7 +26,7 @@ function check(){
  var temPassword = document.form1.password.value;
  if(user==temUser && password==temPassword)
 {
-window.location.href="http://lkopp.ml";
+window.location.href="https://atlinker.cn";
 }
  else{
    document.getElementById('alert').style.transform='translateY(77px)';
