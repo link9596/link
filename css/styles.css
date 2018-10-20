@@ -173,7 +173,7 @@ html {
 }
 .form-group .form-control:focus, .form-group .form-control:valid {
   outline: none;
-  color: #FF4081;
+  color: #37474F;
   box-shadow: 0 1px #FF4081;
   border-color: #FF4081;
 }
