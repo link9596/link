@@ -48,6 +48,7 @@ label {
   -webkit-transition: all .5s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
   transition: all .5s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
   outline: none;
+  -webkit-apprarence：none;
 }
 
 .link-button:hover {
@@ -165,6 +166,7 @@ label {
   top: 5px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  -webkit-apprarence：none;
 }
 .form-group .form-control {
   width: 100%;
@@ -177,6 +179,7 @@ label {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-bottom: 1px solid #777;
+  -webkit-apprarence：none;
 }
 .form-group .form-control:invalid {
   outline: none;
