@@ -1,3 +1,5 @@
+/*表单样式*/
+
 *, *:after, *:before {
   box-sizing: border-box;
 }
@@ -5,6 +7,14 @@
 html {
   position: relative;
   background: #FFFFFF;
+}
+
+input {
+  -webkit-apprarence：none;
+}
+
+label {
+  -webkit-apprarence：none;
 }
 
 .alert{
