@@ -165,6 +165,7 @@ label {
   top: 5px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  -webkit-appearance:none;
 }
 .form-group .form-control {
   width: 100%;
