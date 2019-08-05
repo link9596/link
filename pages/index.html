@@ -36,6 +36,31 @@
       background-size: cover;
       }
     }
+    @-webkit-keyframes fade-in-down {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(60px); }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade{
+  -webkit-animation: fade-in-down 1s;
+  animation: fade-in-down 1s;
+}
     h1 {
       font-size: 4.5em;
       font-weight: 500;
@@ -86,24 +111,26 @@
   </style>
 </head>
 <body>
+<span class="fade">
   <h1>Hola.</h1>
   <p style="font-weight:500; font-size:2.2em">
-    My name is Link.
+  <span class="fade">  My name is Link.
   </p>
   <p>
-   👍 A Minecraft and CS:GO player.<br>
+  <span class="fade"> 👍 A Minecraft and CS:GO player.<br>
   </p>
     <p>
-   ❤ I don't like singing, dancing, Rap, basketball,<br>but i like Music.
+  <span class="fade"> ❤ I don't like singing, dancing, Rap, basketball,<br>but i like Music.
   </p>
   <p>
-   ✎ For more info you can visit
+  <span class="fade"> ✎ For more info you can visit
     <a href="https://atlinker.cn" target="_blank">my blog</a>.<br>
    or my
       <a href="https://github.com/link9596" aria-label="Link's GitHub" title="Link's GitHub">Github</a>
   </p>
   <p class="z">
-    Make Up Your Mind.
+  <span class="fade">  Make Up Your Mind.
   </p>
+</span></p></span></p></span></p></span></p></span></p></span>
 </body>
 </html>
