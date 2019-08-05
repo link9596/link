@@ -109,6 +109,27 @@
       transition: top 200ms cubic-bezier(0, .8, .13, 1);
       background-color: rgba(230,183,194,0.5);
     }
+    #bling{
+      position: relative;
+    }
+    #bling:after {
+      position: absolute;
+	    content: '';
+	    display: inline-block;
+	    width: 2px;
+  	  height: 18px;
+  	  top: 50%;
+  	  transform: translateY(-50%);
+  	  animation: blink 1.2s infinite;
+    }
+  @keyframes blink {
+    0%, 100% {
+        background-color: #FFF;
+      }
+    50% {
+        background-color: transparent;
+      } 
+    }
   </style>
 </head>
 <body>
@@ -130,7 +151,7 @@
       <a href="https://github.com/link9596" aria-label="Link's GitHub" title="Link's GitHub">Github</a>
   </p>
   <p class="z">
-    Make Up Your Mind.
+    Make Up Your Mind.<span id="bling"></span>
   </p>
  </div>
 </body>
