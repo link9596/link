@@ -26,7 +26,7 @@ function check(){
  var temPassword = document.form1.password.value;
  if(user==temUser && password==temPassword)
 {
-window.location.href="https://atlinker.cn";
+window.location.href="https://ducksga.ga";
 }
  else{
    document.getElementById('alert').style.transform='translateY(77px)';
